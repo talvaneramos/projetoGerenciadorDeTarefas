@@ -1,0 +1,9 @@
+C:\Users\Talvane\source\repos\ProjetoGerenciadorDeTarefas\Projeto.Repository\bin\Debug\netcoreapp3.1\Projeto.Repository.deps.json
+C:\Users\Talvane\source\repos\ProjetoGerenciadorDeTarefas\Projeto.Repository\bin\Debug\netcoreapp3.1\Projeto.Repository.dll
+C:\Users\Talvane\source\repos\ProjetoGerenciadorDeTarefas\Projeto.Repository\bin\Debug\netcoreapp3.1\Projeto.Repository.pdb
+C:\Users\Talvane\source\repos\ProjetoGerenciadorDeTarefas\Projeto.Repository\obj\Debug\netcoreapp3.1\Projeto.Repository.AssemblyInfoInputs.cache
+C:\Users\Talvane\source\repos\ProjetoGerenciadorDeTarefas\Projeto.Repository\obj\Debug\netcoreapp3.1\Projeto.Repository.AssemblyInfo.cs
+C:\Users\Talvane\source\repos\ProjetoGerenciadorDeTarefas\Projeto.Repository\obj\Debug\netcoreapp3.1\Projeto.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Talvane\source\repos\ProjetoGerenciadorDeTarefas\Projeto.Repository\obj\Debug\netcoreapp3.1\Projeto.Repository.dll
+C:\Users\Talvane\source\repos\ProjetoGerenciadorDeTarefas\Projeto.Repository\obj\Debug\netcoreapp3.1\Projeto.Repository.pdb
+C:\Users\Talvane\source\repos\ProjetoGerenciadorDeTarefas\Projeto.Repository\obj\Debug\netcoreapp3.1\Projeto.Repository.csprojAssemblyReference.cache
