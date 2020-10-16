@@ -9109,33 +9109,38 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Talvane\\.nuget\\packages\\": {}
+    "C:\\Users\\inmetrics.lvianna\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Talvane\\source\\repos\\ProjetoGerenciadorDeTarefas\\Projeto.Presentation.Mvc\\Projeto.Presentation.Mvc.csproj",
+      "projectUniqueName": "C:\\MVCGerenciador\\projetoGerenciadorDeTarefas\\Projeto.Presentation.Mvc\\Projeto.Presentation.Mvc.csproj",
       "projectName": "Projeto.Presentation.Mvc",
-      "projectPath": "C:\\Users\\Talvane\\source\\repos\\ProjetoGerenciadorDeTarefas\\Projeto.Presentation.Mvc\\Projeto.Presentation.Mvc.csproj",
-      "packagesPath": "C:\\Users\\Talvane\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Talvane\\source\\repos\\ProjetoGerenciadorDeTarefas\\Projeto.Presentation.Mvc\\obj\\",
+      "projectPath": "C:\\MVCGerenciador\\projetoGerenciadorDeTarefas\\Projeto.Presentation.Mvc\\Projeto.Presentation.Mvc.csproj",
+      "packagesPath": "C:\\Users\\inmetrics.lvianna\\.nuget\\packages\\",
+      "outputPath": "C:\\MVCGerenciador\\projetoGerenciadorDeTarefas\\Projeto.Presentation.Mvc\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Talvane\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\inmetrics.lvianna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://pkgs.dev.azure.com/mongeral/_packaging/Nuget-Mongeral/nuget/v3/index.json": {},
+        "https://www.nuget.org/api/v2/": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Talvane\\source\\repos\\ProjetoGerenciadorDeTarefas\\Projeto.Infra.Data\\Projeto.Infra.Data.csproj": {
-              "projectPath": "C:\\Users\\Talvane\\source\\repos\\ProjetoGerenciadorDeTarefas\\Projeto.Infra.Data\\Projeto.Infra.Data.csproj"
+            "C:\\MVCGerenciador\\projetoGerenciadorDeTarefas\\Projeto.Infra.Data\\Projeto.Infra.Data.csproj": {
+              "projectPath": "C:\\MVCGerenciador\\projetoGerenciadorDeTarefas\\Projeto.Infra.Data\\Projeto.Infra.Data.csproj"
             }
           }
         }
@@ -9186,7 +9191,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
