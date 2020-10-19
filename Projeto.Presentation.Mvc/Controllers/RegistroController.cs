@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Projeto.Infra.Data.Entities;
 using Projeto.Infra.Data.Repositories;
+using Projeto.Presentation.Mvc.Helper;
 using Projeto.Presentation.Mvc.Models;
 
 namespace Projeto.Presentation.Mvc.Controllers
@@ -22,12 +23,14 @@ namespace Projeto.Presentation.Mvc.Controllers
             if (ModelState.IsValid)
             {
                 try
-                {                    
+                {
+                    var senhaCriptografada = SecurityHelper.CriptografarSenha(model.Senha);
+
                     var usuario = new Usuario();
                     usuario.Nome = model.Nome;
                     usuario.Email = model.Email;
                     usuario.Permissao = model.Permissao;
-                    usuario.Senha = model.Senha;
+                    usuario.Senha = senhaCriptografada;
 
                     usuarioRepository.Insert(usuario);
 
