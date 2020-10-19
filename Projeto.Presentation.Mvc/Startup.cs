@@ -30,7 +30,7 @@ namespace Projeto.Presentation.Mvc
         {
             services.AddControllersWithViews();
 
-            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie();
+            //services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie();
 
             services.AddDbContext<DataContext>
                 (options => options.UseSqlServer
@@ -49,20 +49,29 @@ namespace Projeto.Presentation.Mvc
             }
 
             app.UseStaticFiles();
-
-            app.UseCookiePolicy();
-            app.UseAuthentication();
+            //app.UseCookiePolicy();
+            //app.UseAuthentication();
             //app.UseAuthorization();
-
             app.UseRouting();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
-                    name: "default", 
-                    pattern: "{controller=Account}/{action=Login}"
+                    name: "default",
+                    pattern: "{controller=Login}/{action=Login}"
+
                );
             });
+
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllerRoute(
+                    name: "default",
+                    pattern: "{controller=Registro}/{action=Registro}"
+               );
+            });
+
+        
         }
     }
 }

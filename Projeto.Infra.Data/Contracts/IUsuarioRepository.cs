@@ -6,9 +6,7 @@ using System.Text;
 namespace Projeto.Infra.Data.Contracts
 {
     public interface IUsuarioRepository : IBaseRepository<Usuario>
-    {
-        Usuario GetByNome(string nome);
-        Usuario GetByNomeAndSenha(string nome, string senha);
-
+    {        
+        
     }
 }

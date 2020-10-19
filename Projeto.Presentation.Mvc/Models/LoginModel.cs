@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Projeto.Presentation.Mvc.Models
 {
-    public class AccountLoginModel
+    public class LoginModel
     {
         [MinLength(4, ErrorMessage = "Por favor, informe no mínimo {1} caracteres.")]
         [MaxLength(150, ErrorMessage = "Por favor, informe no máximo {1} caracteres.")]
@@ -17,6 +17,5 @@ namespace Projeto.Presentation.Mvc.Models
         [MaxLength(20, ErrorMessage = "Por favor, informe no máximo {1} caracteres.")]
         [Required(ErrorMessage = "Por favor, informe a senha de acesso.")]
         public string Senha { get; set; }
-
     }
 }

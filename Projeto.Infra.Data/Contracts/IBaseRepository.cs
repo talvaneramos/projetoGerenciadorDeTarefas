@@ -13,5 +13,6 @@ namespace Projeto.Infra.Data.Contracts
 
         List<T> GetAll();
         T GetById(int id);
+
     }
 }

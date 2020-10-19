@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Projeto.Presentation.Mvc.Controllers
 {
-    [Authorize]
+    //[Authorize]
     public class GerenciadorController : Controller
     {
         public IActionResult Index()
